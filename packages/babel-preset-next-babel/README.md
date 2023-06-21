@@ -10,7 +10,7 @@
 
 <!-- badges-end -->
 
-# @xunnamius/next-babel
+# @xunnamius/babel-preset-next-babel
 
 This is a custom port of Next.js's [`next/babel`][1] package with support for
 the latest features of Babel and TypeScript. Specifically, this package fixes
@@ -41,7 +41,7 @@ in the near future effectively obsoleting this package.
 ## Install
 
 ```bash
-npm install --save-dev @xunnamius/next-babel
+npm install --save-dev @xunnamius/babel-preset-next-babel
 ```
 
 ## Usage
@@ -69,22 +69,23 @@ See the [table of contributors][x-repo-contributors].
   'Is this package well-tested?'
 [x-badge-codecov-link]: https://codecov.io/gh/Xunnamius/next-utils
 [x-badge-downloads-image]:
-  https://img.shields.io/npm/dm/@xunnamius/next-babel?style=flat-square
+  https://img.shields.io/npm/dm/@xunnamius/babel-preset-next-babel?style=flat-square
   'Number of times this package has been downloaded per month'
 [x-badge-lastcommit-image]:
   https://img.shields.io/github/last-commit/xunnamius/next-utils?style=flat-square
   'Latest commit timestamp'
 [x-badge-license-image]:
-  https://img.shields.io/npm/l/@xunnamius/next-babel?style=flat-square
+  https://img.shields.io/npm/l/@xunnamius/babel-preset-next-babel?style=flat-square
   "This package's source license"
 [x-badge-license-link]:
-  https://github.com/Xunnamius/next-utils/blob/main/packages/next-babel/LICENSE
+  https://github.com/Xunnamius/next-utils/blob/main/packages/babel-preset-next-babel/LICENSE
 [x-badge-npm-image]:
-  https://xunn.at/npm-pkg-version/@xunnamius/next-babel
+  https://xunn.at/npm-pkg-version/@xunnamius/babel-preset-next-babel
   'Install this package using npm or yarn!'
-[x-badge-npm-link]: https://www.npmjs.com/package/@xunnamius/next-babel
+[x-badge-npm-link]:
+  https://www.npmjs.com/package/@xunnamius/babel-preset-next-babel
 [x-badge-repo-link]:
-  https://github.com/xunnamius/next-utils/blob/main/packages/next-babel
+  https://github.com/xunnamius/next-utils/blob/main/packages/babel-preset-next-babel
 [x-badge-semanticrelease-image]:
   https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
   'This repo practices continuous integration and deployment!'

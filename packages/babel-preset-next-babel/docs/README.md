@@ -1,6 +1,6 @@
-@xunnamius/next-babel
+@xunnamius/babel-preset-next-babel
 
-# @xunnamius/next-babel
+# @xunnamius/babel-preset-next-babel
 
 ## Table of contents
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[preset.ts:50](https://github.com/Xunnamius/next-utils/blob/94719c7/packages/next-babel/src/next-internals/preset.ts#L50)
+[preset.ts:50](https://github.com/Xunnamius/next-utils/blob/94719c7/packages/babel-preset-next-babel/src/next-internals/preset.ts#L50)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[preset.ts:41](https://github.com/Xunnamius/next-utils/blob/94719c7/packages/next-babel/src/next-internals/preset.ts#L41)
+[preset.ts:41](https://github.com/Xunnamius/next-utils/blob/94719c7/packages/babel-preset-next-babel/src/next-internals/preset.ts#L41)
 
 ## Functions
 
@@ -72,4 +72,4 @@ ___
 
 #### Defined in
 
-[preset.ts:62](https://github.com/Xunnamius/next-utils/blob/94719c7/packages/next-babel/src/next-internals/preset.ts#L62)
+[preset.ts:62](https://github.com/Xunnamius/next-utils/blob/94719c7/packages/babel-preset-next-babel/src/next-internals/preset.ts#L62)

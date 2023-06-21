@@ -8,13 +8,13 @@ file. The format is based on [Conventional Commits][1]; this project adheres to
 
 #### ✨ Features
 
-- Add next-babel package ([48fa7b6][3])
+- Add babel-preset-next-babel package ([48fa7b6][3])
 
 ## 1.0.0 (2023-06-21)
 
 #### ✨ Features
 
-- Add next-babel package ([48fa7b6][3])
+- Add babel-preset-next-babel package ([48fa7b6][3])
 
 [1]: https://conventionalcommits.org
 [2]: https://semver.org

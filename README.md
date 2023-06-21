@@ -120,4 +120,4 @@ specification. Contributions of any kind welcome!
 [x-repo-pr-compare]: https://github.com/xunnamius/next-utils/compare
 [x-repo-support]: .github/SUPPORT.md
 [1]: https://github.com/vercel/next.js
-[2]: ./packages/next-babel
+[2]: ./packages/babel-preset-next-babel

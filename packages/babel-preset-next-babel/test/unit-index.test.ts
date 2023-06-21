@@ -1,7 +1,7 @@
 import { pluginTester } from 'babel-plugin-tester';
 import nextBabelPreset, {
   type NextBabelPresetOptions
-} from 'pkgverse/next-babel/src/index';
+} from 'pkgverse/babel-preset-next-babel/src/index';
 
 // eslint-disable-next-line jest/require-hook
 pluginTester({

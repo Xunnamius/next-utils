@@ -1,5 +1,5 @@
 {
-  "name": "@xunnamius/next-babel",
+  "name": "@xunnamius/babel-preset-next-babel",
   "version": "1.0.0",
   "description": "A custom port of Next.js's `next/babel` package with support for the latest features of Babel and TypeScript",
   "keywords": [
@@ -8,14 +8,14 @@
     "next/babel",
     "babel/next",
     "babel-next",
-    "next-babel",
+    "babel-preset-next-babel",
     "preset",
     "config",
     "configuration",
     "typescript",
     "satisfies"
   ],
-  "homepage": "https://github.com/Xunnamius/next-utils/blob/main/packages/next-babel",
+  "homepage": "https://github.com/Xunnamius/next-utils/blob/main/packages/babel-preset-next-babel",
   "repository": {
     "type": "git",
     "url": "https://github.com/Xunnamius/next-utils"
