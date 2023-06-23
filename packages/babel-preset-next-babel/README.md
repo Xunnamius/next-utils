@@ -13,12 +13,12 @@
 # @xunnamius/babel-preset-next-babel
 
 This is a custom port of Next.js's [`next/babel`][1] package with support for
-the latest features of Babel and TypeScript. Specifically, this package fixes
-the lack of support for `satisfies` (see [vercel/next.js#43799][2]).
+the latest features of Babel and TypeScript. Specifically, this package is an
+attempt to fix the lack of support for `satisfies` (see
+[vercel/next.js#43799][2]).
 
-Thanks to [@valentinpalkovic from Storybook][3] for getting us over the finish
-line by revealing which files needed to be pulled out of Next.js's internals and
-modified.
+Thanks to [@valentinpalkovic from Storybook][3] for getting pointing me in the
+right direction on where the problems are.
 
 Best case scenario: Vercel has not completely abandoned Babel in favor of SWC
 (Babel is still much more popular as of 2023!) and `next/babel` will be updated
