@@ -81,7 +81,7 @@
     "@types/babel__plugin-transform-runtime": "^7.9.2",
     "@types/babel__preset-env": "^7.9.2",
     "next": ">=13.4.6",
-    "styled-jsx": ">=5.1.2"
+    "styled-jsx": ">=5.1.1"
   },
   "engines": {
     "node": "^16.20.0 || ^18.16.0 || >=20.2.0"
