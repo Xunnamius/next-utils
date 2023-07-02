@@ -1,6 +1,6 @@
 {
   "name": "@xunnamius/babel-preset-next-babel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom port of Next.js's `next/babel` package with support for the latest features of Babel and TypeScript",
   "keywords": [
     "next",
