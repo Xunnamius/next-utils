@@ -222,6 +222,8 @@ export function withMiddleware<
       typeof middlewareContext.runtime
     >;
 
+    let isInLegacyModeAndCalledResEnd = false as boolean;
+
     if (isInLegacyMode) {
       const res = resOrUndefined as NextApiResponseLike;
       let ranDoAfterSent = false;
@@ -229,6 +231,8 @@ export function withMiddleware<
       const sendActual = res.end.bind(res);
       res.end = ((...args: Parameters<typeof res.end>) => {
         sendActual(...args);
+
+        isInLegacyModeAndCalledResEnd = true;
 
         if (!ranDoAfterSent) {
           ranDoAfterSent = true;
@@ -344,7 +348,7 @@ export function withMiddleware<
 
       // ? Sanity check that should never be satisfied
       /* istanbul ignore next */
-      if (!res.writableEnded || !res.headersSent) {
+      if (!isInLegacyModeAndCalledResEnd && (!res.writableEnded || !res.headersSent)) {
         throw new SanityError(ErrorMessage.ReachedEndOfRuntime());
       }
 
