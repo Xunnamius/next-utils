@@ -8,7 +8,7 @@
 
 > **Options** = `object`
 
-Defined in: [packages/api/src/middleware/connect-databases.ts:19](https://github.com/Xunnamius/api-utils/blob/183a3e5b3fec7a1bf06d5be3da477b72510b5586/packages/api/src/middleware/connect-databases.ts#L19)
+Defined in: [packages/api/src/middleware/connect-databases.ts:19](https://github.com/Xunnamius/api-utils/blob/6a746e11b580c02067e3fd8cc5b99bc103d3eed8/packages/api/src/middleware/connect-databases.ts#L19)
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: [packages/api/src/middleware/connect-databases.ts:19](https://github
 
 > **database**: `object`
 
-Defined in: [packages/api/src/middleware/connect-databases.ts:23](https://github.com/Xunnamius/api-utils/blob/183a3e5b3fec7a1bf06d5be3da477b72510b5586/packages/api/src/middleware/connect-databases.ts#L23)
+Defined in: [packages/api/src/middleware/connect-databases.ts:23](https://github.com/Xunnamius/api-utils/blob/6a746e11b580c02067e3fd8cc5b99bc103d3eed8/packages/api/src/middleware/connect-databases.ts#L23)
 
 Options specific to the connect-databases middleware.
 

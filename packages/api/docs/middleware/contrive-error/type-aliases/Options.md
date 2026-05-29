@@ -8,7 +8,7 @@
 
 > **Options** = `object`
 
-Defined in: [packages/api/src/middleware/contrive-error.ts:16](https://github.com/Xunnamius/api-utils/blob/183a3e5b3fec7a1bf06d5be3da477b72510b5586/packages/api/src/middleware/contrive-error.ts#L16)
+Defined in: [packages/api/src/middleware/contrive-error.ts:16](https://github.com/Xunnamius/api-utils/blob/6a746e11b580c02067e3fd8cc5b99bc103d3eed8/packages/api/src/middleware/contrive-error.ts#L16)
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: [packages/api/src/middleware/contrive-error.ts:16](https://github.co
 
 > `optional` **enableContrivedErrors**: `boolean`
 
-Defined in: [packages/api/src/middleware/contrive-error.ts:22](https://github.com/Xunnamius/api-utils/blob/183a3e5b3fec7a1bf06d5be3da477b72510b5586/packages/api/src/middleware/contrive-error.ts#L22)
+Defined in: [packages/api/src/middleware/contrive-error.ts:22](https://github.com/Xunnamius/api-utils/blob/6a746e11b580c02067e3fd8cc5b99bc103d3eed8/packages/api/src/middleware/contrive-error.ts#L22)
 
 If `true`, every Nth request will fail with a contrived error.
 

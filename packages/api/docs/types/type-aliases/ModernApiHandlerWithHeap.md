@@ -8,7 +8,7 @@
 
 > **ModernApiHandlerWithHeap**\<`Heap`\> = (`request`, `handlerContext`) => `Promisable`\<`Response` \| `undefined` \| `void`\>
 
-Defined in: [packages/api/src/types.ts:51](https://github.com/Xunnamius/api-utils/blob/183a3e5b3fec7a1bf06d5be3da477b72510b5586/packages/api/src/types.ts#L51)
+Defined in: [packages/api/src/types.ts:51](https://github.com/Xunnamius/api-utils/blob/6a746e11b580c02067e3fd8cc5b99bc103d3eed8/packages/api/src/types.ts#L51)
 
 The shape of a modern fetch request handler + an additional context
 parameter.

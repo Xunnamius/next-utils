@@ -8,7 +8,7 @@
 
 > **makeMiddleware**(): (`reqOrRequest`, `resOrModernContext`, `maybeLegacyContext`) => `Promise`\<`void`\>
 
-Defined in: [packages/api/src/middleware/add-raw-body.ts:71](https://github.com/Xunnamius/api-utils/blob/183a3e5b3fec7a1bf06d5be3da477b72510b5586/packages/api/src/middleware/add-raw-body.ts#L71)
+Defined in: [packages/api/src/middleware/add-raw-body.ts:71](https://github.com/Xunnamius/api-utils/blob/6a746e11b580c02067e3fd8cc5b99bc103d3eed8/packages/api/src/middleware/add-raw-body.ts#L71)
 
 Adds a `rawBody` property into the heap, making it available to all other
 middleware and handlers.
